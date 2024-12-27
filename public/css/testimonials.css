@@ -1,0 +1,54 @@
+.testimonial-slider {
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 33.33%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.slide img {
+    width: 26%;
+    height: 90px;
+    border-radius: 80px;
+}
+
+/* Indicators Styling */
+.slider-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.indicator {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px;
+    background-color: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.indicator.active {
+    background-color: rgb(55, 152, 238);
+    ;
+}
+
+.fa-quote-left {
+    color: rgb(55, 152, 238);
+}
+
+.fa-quote-right {
+    color: rgb(55, 152, 238);
+}

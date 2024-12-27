@@ -1,0 +1,361 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#menu{
+    display: none;
+}
+.portnavbar{
+    width: 100%;
+    background: white;
+    box-shadow: 0px 5px 8px #323232;
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 1000000;
+}
+.list{
+    display: flex;
+    float: right;
+}
+.portnavbar li{
+    padding: 15px;
+
+}
+.portnavbar li:hover{
+    background: #0309b0;
+    
+}
+
+.portnavbar li a{
+    color: #0309b0;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 500;
+    font-family: 'maven pro','sense serif';
+}
+.portnavbar .list a:hover{
+    color: white;
+}
+
+.title{
+    padding: 15px;
+    padding-left: 15px;
+    float: left;
+}
+.title a{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Maven Pro',sans-serif;
+}
+
+.my-project{
+    margin: 30px 0px;
+    padding: 0px 100px;
+    box-sizing: border-box;
+}
+.pro-text{
+    text-align: center;
+    font-family: 'Maven Pro',sans-serif;
+    font-weight: 600;
+}
+.about-text{
+    text-align: center;
+    font-family: 'Maven Pro',sans-serif;
+    font-weight: 600;
+}
+
+.about-row,.project-row,.people-row{
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.coll{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+.fast-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom:  2px solid #2FB7FA;
+    padding: 50px 0px;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+.fast-box h2{
+    font-family: 'Maven Pro',sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.fast-box p{
+    font-family: 'Maven Pro',sans-serif;
+    margin-top: 0px;
+    text-align: center;
+}
+.fast-box div{
+    width: 100px;
+    height: 100px;
+    background: #DBF3FE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fast-box div span{
+    font-size: 60px;
+    color: #2FB7FA;
+}
+
+.pic-row{
+    width: 100%;
+    background: whitesmoke;
+    display: flex;
+    box-sizing: border-box;
+}
+.col-left{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.col-right{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+.col-right h1{
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+
+}
+.col-right label{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.progress-box{
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.progress-bar-html5{
+    width: 0%;
+    background: #149ddd;
+    height: 20px;
+    text-align: center;
+}
+.progress-bar-css3{
+    width: 0%;
+    background: #149ddd;
+    height: 20px;
+    text-align: center;
+}
+.progress-bar-bootstrap{
+    width: 0%;
+    background: #149ddd;
+    height: 20px;
+    text-align: center;
+}
+.progress-bar-javascript{
+    width: 0%;
+    background: #149ddd;
+    height: 20px;
+    text-align: center;
+}
+.progress-bar-jquery{
+    width: 0%;
+    background: #149ddd;
+    height: 20px;
+    text-align: center;
+}
+.progress-bar-php{
+    width: 0%;
+    background: #149ddd;
+    height: 20px;
+    text-align: center;
+}
+.progress-bar-mysql{
+    width: 0%;
+    background: #149ddd;
+    height: 20px;
+    text-align: center;
+}
+
+.progress-bar-laravel{
+    width: 0%;
+    background: #149ddd;
+    height: 20px;
+    text-align: center;
+}
+
+.progress-box span{
+    color: white;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+.project{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #e0e0e0;
+    box-sizing: border-box;
+}
+.project img{
+    width: 100%;
+    height: 90%;
+}
+.p-name{
+    margin: 0%;
+    padding: 10px 0px;
+    font-size: 20px;
+    background: #ccc;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+.p-name a{
+    text-decoration: none;
+}
+.people-col{
+    width: 33.33%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.user{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+.user-top{
+    display: flex;
+}
+.user-pic img{
+    border-radius: 50%;
+    width: 80px;
+}
+.user-name h2{
+    font-family: 'Maven Pro', sans-serif;
+    padding: 0px 20px;
+    margin-bottom: 0px;
+}
+.user-name small{
+    font-family: 'Maven Pro', sans-serif;
+    padding: 0px 20px;
+}
+.user-bottom p{
+    font-size: 14px;
+    font-family: 'Maven Pro', sans-serif;
+    text-align: justify;
+}
+
+.footer{
+    background: #323232;
+}
+.footer .social{
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+    padding: 100px 0px 10px 0px;
+}
+.footer .social div{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+    padding: 20px;
+}
+.footer-nav a{
+    color: white;
+    text-decoration: none;
+}
+.footer-msg{
+    background: black;
+    padding: 15px;
+    width: 100%;
+}
+.footer-msg p{
+    color: white;
+    text-align: center;
+}
+
+
+@media(max-width:992px) {
+    .portnavbar{
+        display: none;
+    }
+    .slicknav_menu{
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 100001;
+        width: 100%;
+    }
+}
+
+@media(min-width:992px){
+    .portnavbar{
+        display: block;
+    }
+    .slicknav_menu{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    .about-row{
+        flex-direction: column;
+    }
+    .coll{
+        width: 100%;
+    }
+    .pic-row{
+        flex-direction: column;
+    }
+    .pic-row .col-left{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pic-row .col-right{
+        width: 100%;
+    }
+    .project-row{
+        flex-direction: column;
+    }
+    .people-row{
+        flex-direction: column;
+    }
+    .people-row .people-col{
+        width: 100%;
+    }
+}
+
